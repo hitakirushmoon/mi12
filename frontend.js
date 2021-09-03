@@ -1,5 +1,5 @@
 const axios = require('axios');
-const token = process.env.PAGE_TOKEN;
+const token = process.env.TOKEN;
 
 async function send_messages(recipient_id, response) {
     // Construct the message body
